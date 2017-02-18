@@ -1,0 +1,23 @@
+{
+  "Main": {
+    "height": "100%",
+    "width": 360,
+    "deals": [
+      {
+        "what": "Caffe Nero",
+        "howMuch": "€2 coffee in store",
+        "offerImage": "https://cloud.lovin.ie/images/coffee.jpg?mtime=20150715161650"
+      },
+      {
+        "what": "M&S",
+        "howMuch": "15% off",
+        "offerImage": "http://internetretailing.net/files/2012/06/m-and-s-lgo.jpeg"
+      },
+      {
+        "what": "British Airways",
+        "howMuch": "Double Avios",
+        "offerImage": "http://az616578.vo.msecnd.net/files/2016/12/10/6361699541494319081615194148_plane%20at%20sunset.jpg"
+      }
+    ]
+  }
+}

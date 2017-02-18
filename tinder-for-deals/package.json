@@ -1,0 +1,17 @@
+{
+  "name": "tinder-for-deals",
+  "main": "src/index.js",
+  "author": "dario@viewsdx.com",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "viewsdx-scripts-react": "latest"
+  },
+  "dependencies": {
+    "viewsdx-run-react": "latest"
+  },
+  "scripts": {
+    "build": "viewsdx-scripts-react build",
+    "deploy": "viewsdx-scripts-react deploy surge",
+    "start": "viewsdx-scripts-react start"
+  }
+}
