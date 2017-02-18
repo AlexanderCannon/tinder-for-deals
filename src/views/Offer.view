@@ -1,0 +1,79 @@
+# begin view Offer
+## begin view
+Offer is Vertical
+backgroundColor white
+borderRadius 2
+marginTop 5
+boxShadow 0 0 8px 
+borderBottom 40
+width 100%
+Image
+src props.offerImage
+width 450
+borderTopLeftRadius 2
+borderTopRightRadius 2
+Description is Vertical
+padding 10
+Text
+fontFamily Helvetica
+fontSize 26
+text props.what
+Text
+fontFamily Helvetica
+fontSize 20
+text ${props.howMuch}
+Text
+text https://www.google.com/maps/place/${props.lat},${props.lon}
+
+
+Horizontal
+marginLeft 10
+marginRight 10
+marginBottom 10
+Remove is Horizontal
+onClick props.remove
+padding 10
+backgroundColor navajowhite
+backgroundColorHover red
+borderRadius 100
+Cross
+
+
+Like is Horizontal
+onClick props.like
+padding 10
+backgroundColor navajowhite
+backgroundColorActive red
+borderRadius 100
+marginLeft 10
+isActive props.liked
+Heart
+
+
+## end view
+## begin props
+Main is State
+height 100%
+width 100%
+deals
+item
+what Caffe Nero
+howMuch €2 coffee in store
+offerImage https://cloud.lovin.ie/images/coffee.jpg?mtime=20150715161650
+lat 53.3423
+lon -6.2597
+item
+what M&S
+howMuch 15% off
+offerImage http://internetretailing.net/files/2012/06/m-and-s-lgo.jpeg
+lat 53.3423
+lon -6.6597
+item
+what British Airways
+howMuch Double Avios
+offerImage http://az616578.vo.msecnd.net/files/2016/12/10/6361699541494319081615194148_plane%20at%20sunset.jpg
+lat 53.3423
+lon -6.4597
+
+## end props
+# end view Offer

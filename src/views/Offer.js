@@ -9,7 +9,7 @@ const Offer = props => (
       flexDirection: "column",
       backgroundColor: "white",
       borderRadius: 2,
-      marginTop: 50,
+      marginTop: 5,
       boxShadow: "0 0 8px",
       borderBottom: 40,
       width: "100%"
@@ -44,6 +44,9 @@ const Offer = props => (
         }}
       >
         {`${props.howMuch}`}
+      </div>
+      <div>
+        {`https://www.google.com/maps/place/${props.lat},${props.lon}`}
       </div>
     </div>
     <div

@@ -18,7 +18,6 @@ app.get('/', function (req, res) {
         }
     }];
 
-
     request.get({
         url: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.5033640,-0.1276250&radius=500&types=food&name=cruise&key=AIzaSyBAovukE2ey9uPSURXvP315S1Q8AsoF_Zg"
     },
