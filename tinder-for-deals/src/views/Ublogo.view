@@ -1,0 +1,10 @@
+# begin view Ublogo
+## begin view
+Ublogo
+backgroundColor #FFFFFF
+text I'm a part!
+## end view
+## begin props
+Main is State
+## end props
+# end view Ublogo

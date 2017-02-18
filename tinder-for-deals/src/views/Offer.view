@@ -1,51 +1,6 @@
 # begin view Offer
 ## begin view
-Offer is Vertical
-backgroundColor white
-borderRadius 2
-marginTop 5
-boxShadow 0 0 8px 
-borderBottom 40
-width 100%
-Image
-src props.offerImage
-width 450
-borderTopLeftRadius 2
-borderTopRightRadius 2
-Description is Vertical
-padding 10
-Text
-fontFamily Helvetica
-fontSize 26
-text props.what
-Text
-fontFamily Helvetica
-fontSize 20
-text ${props.howMuch}
 
-
-Horizontal
-marginLeft 10
-marginRight 10
-marginBottom 10
-Remove is Horizontal
-onClick props.remove
-padding 10
-backgroundColor navajowhite
-backgroundColorHover red
-borderRadius 100
-Cross
-
-
-Like is Horizontal
-onClick props.like
-padding 10
-backgroundColor navajowhite
-backgroundColorActive red
-borderRadius 100
-marginLeft 10
-isActive props.liked
-Heart
 ## end view
 ## begin props
 Main is State

@@ -12,6 +12,9 @@ Offer
 apply item
 like () => props.like(item)
 remove () => props.remove(item)
+
+
+
 ## end view
 ## begin props
 Main is State
@@ -30,6 +33,7 @@ item
 what British Airways
 howMuch Double Avios
 offerImage http://az616578.vo.msecnd.net/files/2016/12/10/6361699541494319081615194148_plane%20at%20sunset.jpg
+
 
 ## end props
 # end view Main

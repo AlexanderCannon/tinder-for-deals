@@ -9,7 +9,7 @@ const Offer = props => (
       flexDirection: "column",
       backgroundColor: "white",
       borderRadius: 2,
-      marginTop: 5,
+      marginTop: 50,
       boxShadow: "0 0 8px",
       borderBottom: 40,
       width: "100%"
